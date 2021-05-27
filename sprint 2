@@ -1,0 +1,23 @@
+
+Plataforma de reunião da equipe: Skype 8.71
+Ferramenta de documentação: Google docs 1.21, LibreOffice 4.0
+Ferramenta de notificação da equipe: Whatsapp 2.21.9.13
+Compartilhamento de arquivos: Google Drive 2.21.161
+Modelo conceitual e lógico: brModelo 3.2
+Ferramenta de desenvolvimento do app: Android Studio 4.2
+Linguagem: Kotlin
+Ferramenta banco de dados: SQLite 3.35
+
+Utilizamos o Skype pelo fato dele ser uma ferramenta que frequentemente vem pré instalada em máquinas desktop e mobile, sendo de uso comum, e familiar para a maioria dos integrantes. Também dispõem de utilitários como vídeo chamada, mensagens inteligentes e compartilhamento de tela e gravações de conversas.
+
+Utilizamos as ferramentas Google docs e LibreOffice para realizar a documentação do projeto, visto que são recursos gratuitos e de uso comum. Além do Google docs possibilitar o compartilhamento em tempo real com os membros da equipe.
+
+Utilizamos o Whatsapp como ferramenta para notificar os membros da equipe sobre o andamento do projeto e acontecimentos ao longo do desenvolvimento. Ele foi escolhido por seu uso comum e familiar para todos os integrantes da equipe.
+
+Utilizamos como ferramenta de compartilhamento de arquivos o Google Drive, tendo em vista o compartilhamento em tempo real com todos os integrantes da equipe, assim como o Google docs, e permitir o acesso em plataformas mobile e desktop.
+
+Utilizamos a ferramenta brModelo com o intuito de criar o modelo conceitual e o modelo lógico do projeto. Escolhemos o brModelo como ferramenta por seu simples manuseio e por sua alta acessibilidade.
+
+Para o desenvolvimento do Welfare utilizamos o ambiente de programação android studio, e o Kotlin como linguagem de programação. Escolhemos trabalhar com o Android e o Kotlin por serem uma ferramenta e uma linguagem que estamos acostumados e seguros de trabalhar. 
+
+Utilizamos como ferramenta de banco de dados o SQLite, por apresentar uma compatibilidade com o Android, e ser fácil de configurar e usar.
