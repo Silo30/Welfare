@@ -1,0 +1,115 @@
+
+ Silo de Menezes: Scrum Master
+  Altair Martins: Desenvolvedor Front-end
+  Arthur Pernambuco: Desenvolvedor Back-end / Database
+  Glauber Kéciller: Desenvolvedor Back-end 
+  Luiz Renaux: Desenvolvedor Back-end
+  Jonathas Pajé: Database / Design
+Thyago Hyvo: Desenvolvedor Front-end.
+
+     Tela Login
+
+o   Especificação
+Para tela de Login é necessário informar o usuário e senha cadastrados na tela de “cadastro de login” para conseguir efetuar o login e acessar a tela principal do sistema.
+
+
+o   Restrição
+Por motivos de segurança, caso o usuário informe o login ou senha errada por cinco vezes consecutivas, o sistema bloqueará o acesso do usuário, sendo necessário o mesmo acessar o e-mail cadastrado para realizar o desbloqueio através do link que foi enviado para o e-mail. O sistema terá dois tipos de acesso, para usuários normais e para agentes de saúde.
+
+·         Tela Cadastro Login
+
+o   Especificação
+O cadastro é composto por campos para preenchimento de informações pessoais, CPF, Nome, E-mail, CEP, Senha, Contato.
+
+o   Restrição
+O vínculo do cadastro é realizado através do CPF, portanto cada usuário consegue realizar apenas um cadastro, a senha segue com alguns requisitos mínimos para segurança do usuário, precisa conter no mínimo 6 dígitos e conter ao menos uma letra.
+
+·         Tela Cadastros (Médicos, Agentes, Especialidades, Hospital ou Posto)
+
+o   Especificação
+Tela responsável pelo cadastro de Médicos, Agente e Especialidades e Hospital ou Posto disponíveis.
+
+o   Restrição
+Esta tela de registro estará restrita apenas para ADMs e SUPPORTE para a realização dos cadastros e parametrizações necessárias.
+
+
+
+·         Tela Marcações
+
+o   Especificação
+Tela será composta por campos para realização das marcações e existiram alguns campos fundamentais e essenciais como, Especialidade, data da consulta, CPF, número do SUS, Endereço, Nome, entre outros campos necessários para a marcação.
+
+o   Restrição
+Alguns campos específicos serão fixos de acordo com a especialidade escolhida para a região, por exemplo, campo médico; as datas e horários indisponíveis estarão acinzentadas, não sendo possível selecionar essas datas.
+ 
+·         Tela Consulta
+
+o   Especificação
+Tela composta por campos como, período, nome, número do SUS, CPF, entre outros campos que compõem a tela de consulta.
+
+o   Restrição
+O usuário só terá acesso às consultas vinculadas ao seu CPF, algumas marcações são obrigatórias (período, CPF) para que a consulta seja efetuada.
+
+·         Tela Histórico
+
+o   Especificação
+A tela será responsável pela visualização do histórico de consultas e marcações do usuário, tendo status e detalhamento de cada uma delas, existirá filtros para uma consulta de histórico específica ou caso opte por visualizar todas apenas clicar na opção consultar, na parte de filtro terá opções como (período, CPF, nome).
+o   Restrição
+O usuário só terá acesso aos históricos vinculados ao seu CPF.
+
+
+
+Sprint 01-22 a 29 de Abril-Atividade 04: Especificar os critérios de aceitação de cada funcionalidade.
+Os dados referentes às funcionalidades a seguir só serão acessados pelo próprio paciente, pelo Agente de Saúde ou pelo Médico.
+ 
+1.      Tela Login:
+Funcionalidade obrigatória a todos os usuários para validação de acesso a aplicação, conforme Login e Senha informados na tela Cadastros de Login.
+- Campo Login: neste o usuário informará o Login cadastrado na tela cadastro.
+- Campo Senha: local onde o usuário informará a senha escolhida na tela cadastrada.
+ 
+2.      Cadastros de Login:
+Obrigatório a todos os usuários cadastrados na aplicação, tanto o Login quanto a Senha serão escolhidos pelo usuário:
+- Campo Login: o usuário informará os caracteres alfanuméricos do seu Login, até 10 caracteres.
+- Campo Senha: o usuário informará os caracteres alfanuméricos da senha, até 08 caracteres.
+ 
+3.      Tela Cadastros:
+Local onde serão informados os dados cadastrais dos usuários, sendo o CPF o valor de referência a fim de evitar cadastro duplicado de usuário.
+- Nome: composto de nome e sobrenome, do tipo alfabético, até 60 caracteres.
+- Apelido: alfabético, até 15 caracteres.
+- RG: numérico, até 11 caracteres.
+- CPF: numérico, até 11 caracteres.
+- Endereço: alfanumérico, até 120 caracteres.
+- CEP: numérico, até 11 caracteres, sob validação pelos correios.
+- Telefone: número do terminal com DDD, do tipo numérico.
+- E-mail: do tipo alfanumérico, sob validação de servidor de e-mail.
+  
+4.      Tela Marcações:
+Tela por meio da qual o usuário realizará agendamentos de consultas e exames. Conterá os seguintes Menus:
+- Menu Marcar Consulta: neste o usuário escolherá, dia, hora, local, médico e especialidade referente a consulta médica.
+- Menu Exame: local onde o usuário definirá dia, hora, local, e especialidade para a realização do exame.
+- Menu Em Casa: local onde o usuário poderá solicitar atendimento em sua residência, mas tal serviço só será possível mediante planejamento e incapacidade do paciente deslocar-se para a unidade de atendimento.
+- Chat: campo onde o usuário poderá expor dúvidas ou solicitar esclarecimentos de referente às consultas ou exames.
+ 
+5.      Tela Consulta:
+Local em que os usuários poderão realizar consultas aos agendamentos, ou poderá alterá-los.
+- Menu Verificar Consulta: neste verificará a consulta. Podendo realizar alterações de agendamento
+- Menu Verificar Exame: local de consulta referente ao agendamento de Exames; podendo realizar alterações do agendamento.
+ 
+6.      Tela Histórico:
+Ao informar o nome, ou CPF, ou o número SUS do paciente, será exibido o histórico médico referente àqueles dados.
+Conterá os campos Nome, CPF, e Nº SUS.
+ 
+
+7.      Tela Perfil:
+Nesta tela será exibido os dados cadastrais, mapa do endereço, e foto da pessoa consultada, conforme inserção do Nome, ou CPF ou Nº SUS.
+Conterá os campos Nome, CPF e nº SUS.
+ 
+8.      Tela Notificações
+Tela que será enviada mensagens de alertas aos usuários referentes aos agendamentos de consulta médica ou de exames. Inclusive mensagens de reagendamento ou cancelamento da consulta médica e/ou de exame.
+ 
+9.      Tela Configurações:
+Nesta tela será vista todos as parametrizações referentes ao sistema, onde será possível realizar ajustes como, permissões, segurança, Perfil, Notificações, Todos os campos serão de assinalar para confirmar as opções que deseja ou não que estejam ativas
+  
+10.  Tela Relatórios:
+Local onde o usuário poderá emitir relatórios referentes às consultas médicas ou exames realizados, cancelados ou ainda aqueles que o paciente simplesmente faltou.
+Quanto aos relatórios gerenciais estarão disponíveis apenas para os administradores, podendo desta forma realizar estudos que visem a melhoria do serviço de forma geral, seja ele relativo ao local de atendimento, aos profissionais envolvidos ou ainda referente à aplicação tecnológica utilizada para prestação do serviço
