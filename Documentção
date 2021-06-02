@@ -1,0 +1,281 @@
+documentação do andamento do projeto
+
+UNINASSAU
+
+
+
+
+
+Relatório Técnico do Aplicativo
+
+
+ Sistema Welfarev.01.1
+
+
+Recife/PE, 15 de abril de 2021
+
+
+FICHA TÉCNICA:
+Altair Martins - 01250035
+Arthur Pernambuco - 01014745
+Glauber Kéciller - 01276543
+Jonathan Lacerda - 01279452
+Luiz Renaux - 01280411
+Silo Menezes - 01277472
+Thyago Hyvo - 01256012
+WELFARE
+
+PROBLEMÁTICA
+Após alguns levantamentos e pesquisas, foram identificadas algumas defasagens na área da saúde, principalmente ao que diz respeito a parte do atendimento do paciente que está vinculado ao agente de saúde, segundo algumas pesquisas de campo, foi relatado uma insatisfação na engenharia de funcionamento desses atendimentos, o agente apesar de buscar trazer um auxilio ímpar, esbarra em algumas dificuldades, como por exemplo, em caso de pacientes que necessitem de algum tipo de marcação de consulta presencial, o agente precisa anotar, para que em uma próxima reunião que ocorrer pela prefeitura com os médicos locais, ali serão apresentados essas situações para que eles possam analisar e poder verificar em sua agenda, quando poderá realizar a visita, o trâmite de todo esse processo além de complexo e desgastante, consome muito tempo. Hoje pode-se dizer que essa ligação entre Médico, Agente de Saúde e Paciente, está muito distante, além das dificuldades dos pacientes que são independentes, mas que por conta do seu fluxo diário encontram dificuldades para arrumar algum tempo, para ir presencialmente realizar algum tipo de agendamento (que as vezes retorna sem sucesso) ou pegar o laudo de algum exame, e acabam assim sem este atendimento.
+
+SOLUÇÃO
+O software que está sendo implementando, visa abranger os 2 perfis, mas tendo como finalidade principal o agente de saúde, visando trazer melhorias e praticidade ao seu atendimento, e assim estreitar o elo entre Medico, Agente de saúde e Paciente, a aplicação busca trazer a comodidade ao usuários, Dando aos mesmo as condições necessárias para que sintam se bem e possam ter atendidas suas necessidades básicas, Além de todos esses benefícios a aplicação vem trazer uma economia que é de suma importância para os 2 perfis, a economia de tempo, agilizando o atendimento sem que perca sua qualidade, a aplicação é completamente intuitiva e de fácil usabilidade.
+REQUISITOS
+
+SEGMENTO
+
+A empresa Welfare está voltada ao ramo da saúde.
+FUNCIONALIDADE DO SOFTWARE
+
+O software deverá abranger dois tipos de perfis de acessos, o acesso direto, (onde o próprio usuário poderá utilizar as funcionalidades da aplicação), este terá acesso, aos campos de marcações de consulta, solicitação de atendimento virtual (só para situações emergências), acesso a histórico e geração de relatórios.
+
+Já o segundo perfil, (se enquadram pessoas de certa idade, que não tem contato com aplicações tecnológicas e necessitam do auxílio dos agentes de saúde, que frequentam seus lares periodicamente) neste caso todo processo necessário é realizado pelo agente de saúde, disponibilizando apenas para o usuário final, uma tela bem intuitiva e de fácil usabilidade com informação das consultas ou marcações realizadas, para atendimento presencial ou não presencial.    
+
+EXPECTATIVA DO SOFTWARE
+
+Com a implementação do software espera-se trazer melhorias e auxílio ao agente de saúde, para realizar um atendimento ao público de melhor qualidade, proporcionar a todos o usuário a comodidade de poder realizar as suas marcações periódicas necessárias no conforto da sua casa, trazendo assim mais comodidade a todos, como qualidade e otimização. 
+
+
+PUBLICO ALVO
+
+
+O sistema tem como foco, auxiliar e melhorar o atendimento publico em geral, toda via o alvo da aplicação, se da direcionado ao agente de saude (no atendimento a pessoas com pouca disponibilidade ou conhecimento tecnologico) levando a tecnologia em meios mais escassos proporcionando uma melhor experiencia e praticidade ao agente de saude que gerencia a aplicação para esses perfis, e para os usuarios que por não terem afinidades com a aplicação, não terão dificuldades de interpretação, pois além de todos os tramites já terem sidos tratados pelo agente de saude, o acompanhamento atravez do aplicativo, se dara por uma tela bastante intuitiva e de usabilidade facil.
+
+
+
+
+
+1. Usuário Geral (PERFIL 1):
+
+Este usuário estará habilitado a realizar operações como, marcações, alterações e exclusões de consulta, solicitar atendimento virtual (apenas em casos de emergencia), visualização de historico pessoal e geração de relatorios.
+
+1. Usuário Geral (PERFIL 2):
+
+Este usuário estará habilitado apenas a uma tela de consulta das marcações que foram realizadas pelo agente de saude, notificações e avisos sobre medicações e função alerta para solicitar o contato de um agente de saude.
+
+2. Usuário Gerencial:
+
+Este, por sua vez, terá acesso a qualquer parte do sistema relativo ao Cadastro, Consulta, Alteração e Exclusão, referente aos clientes, marcações, agendamentos; além, do acesso a relatórios e historicos. 
+
+PROBLEMAS POTENCIAIS 
+
+Cadastrar Marcações de Consultas
+
+Controlar Disponibilidade de Agendamento
+
+Controlar Agendamento para Atendimento Virtual
+
+Controlar Atendimento Virtual
+
+Controlar Limites de Marcações por Usuário 
+
+
+PRIORIDADES NA IMPLEMENTAÇÃO DOS REQUESITOS
+
+
+Manter Cadastro de Usuários
+
+Manter Marcações de Consulta
+
+Manter Agendamento de consultas
+
+Manter seleção de categoria de Atendimento
+
+Manter Seleção de Tipo de Consulta
+
+Manter Solicitação de Atendimento virtual
+
+
+ESPECIFICAÇÃO DOS REQUESITOS
+
+O Sistema desenvolvido devera controlar todas as marcações de consulta para todos as categorias, tanto presencial quanto atendimento virtual. O software a ser implantado deverá ser de fácil manipulação, tornando o ambiente de trabalho mais simples e seguro, diminuindo assim as falhas e dando uma padronização de qualidade ao usuário.
+
+
+ESCOPO
+
+O sistema não fará backup
+
+O sistema terá ligação on-line com o SUS
+
+O sistema terá 2 perfis para usuário com mais ou menos interação tecnológica.
+
+O sistema terá 2 perfis diferente
+
+
+DESCRIÇÃO DO PRODUTO
+
+O sistema tem por finalidade principal dar suporte/auxiliar o agente de saúde em suas visitas, estreitando a ligação entre Medico, Agente e Paciente, existe também a finalidade de atender os demais pacientes que não necessitam de auxílio do agente de saúde por terem um interação tecnológica, neste caso os mesmo poderão realizar suas marcações, exclusões ou alterações de agendamentos, poderão solicitar atendimento virtual, que será avaliado e caso necessário recebera um retorno com data para este atendimento, consulta de histórico do perfil, e geração de relatórios.
+
+
+PESPECTIVA DO PRODUTO
+
+Agilidade e precisão nas Marcações
+
+Praticidade e comodidade
+
+Qualidade de atendimento
+
+Maior segurança nas tomadas de decisões
+
+Estreitar elos (Medico, Agente de Saúde, Paciente)
+
+Agilidade no tempo de resposta no acesso as telas
+
+Maior segurança no acesso as telas, de acordo com as permissões concedidas
+
+Maior segurança no Arquivamento dos Dados
+
+Usabilidade intuitiva de fácil compreensão do Usuário
+
+
+EXIGÊNCIAS, RESTRIÇÕES
+
+O software não fará emissão de nota fiscal
+
+Os relatórios deverão ser visualizados antes de serem impressos, para fins de conferência
+
+O Sistema deverá ser multiusuário
+
+REQUESITOS FUNCIONAIS
+
+RF 01 - Manter Cadastro de Usuário
+
+RF 05 - Manter Cadastro de Usuário
+
+RF 09 - Emissão de Relatório dos Cliente
+
+RF 13 - Emissão de Relatório de Usuário
+
+RF 14 - Emissão de Relatório de Venda
+
+
+REQUESITOS NÃO FUNCIONAIS
+
+RNF 01 - REQUESITOS DE DESEMPENHO
+
+A finalização de uma operação não poderá gastar mais que 30 segundos, devendo ser realizada em 10 segundos em 80% das vezes. As operações de pesquisas ao sistema deverão ocorrer no máximo em 30 segundos.
+
+RNF 02 - REQUESITOS DE QUALIDADE
+
+Todos os usuários terão que passar por treinamento para estarem aptos ao uso do software. Para ter o domínio da plataforma e atender os usuários de forma satisfatória.
+
+
+RNF 03 - REQUESITOS DE SEGURANÇA
+
+O acesso as telas e a todas as informações do software será protegido por um login, tendo acesso apenas os usuários cadastrados.
+
+Todos os dados do software como, dados do Cliente, Marcações, entre outros, poderão ser exportados para algum diretório (escolhido pelo usuário) a fim de ter um backup dessas informações.
+
+
+RNF 04 - REQUESITOS DE CONFIABILIDADE
+
+Os usuários cadastrados, visualizaram apenas as telas que lhes foram concedidas as permissões, consistindo em cada telas as categorias de permissões para (Incluir, Alterar, Excluir, Apenas Visualizar, Não Visualizar).
+
+
+RNF 05 - REQUESITOS DE USABILIDADE
+
+O sistema deverá ser intuitivo e de fácil compreensão e manuseio dos usuários.
+
+
+RNF 07 - REQUESITOS TECNOLOGICOS
+
+O sistema passará por uma análise a cada 6 meses, buscando estar sempre ligado as novas tecnologias, a fim de trazer melhorias para o software.
+
+
+
+
+PERSONAS 
+
+
+
+
+
+
+
+
+
+APLICATIVOS SIMILARES
+CONECTE SUS
+https://conectesus-paciente.saude.gov.br
+
+O Aplicativo, desenvolvido pelo Departamento de Informática do SUS (DATASUS), tem por objetivo promover ao cidadão serviços como medicamentos retirados da rede pública, atendimentos realizados, apresentação de vacinas, serviços de saúdes recentes, dentre outros que permitem ao cidadão acessar os diversos serviços oferecidos pelo SUS. 
+O aplicativo digiSUS, implantado no sistema de saúde brasileiro em abril de 2019, foi reestruturado resultando no Aplicativo Conecte SUS, sendo um dos motivos de tal reestruturação o risco à população advindo da pandemia gerada pelo novo Coronavírus. Essa reestruturação permitiu dispor para o usuário os resultados de exame relacionado à Covid-19.
+Acredito que alguns dos pontos fortes deste aplicativo seja a promoção do acesso do usuário aos diversos serviços promovidos pelo SUS, dentre estes, o Cidadão receber resultado de exame relacionado à Covid-19 em seu perfil no aplicativo, impedindo dessa maneira que o usuário se exponha mais uma vez para apenas pegar um resultado. 
+Conforme opiniões de alguns usuários, o Aplicativo apresenta diversos problemas de funcionalidade como “não dá para agendar consulta”, muitas vezes “não apresenta resultados de exames”, e em outras diversas vezes “não apresenta histórico do paciente”, dentre outros problemas apontados.
+Algumas telas do Aplicativo: 
+1-                                              2-                                         3-   
+
+
+
+
+
+
+
+
+
+-https://www.gov.br/casacivil/pt-br/assuntos/noticias/2020/junho/governo-federal-institui-programa-conecte-sus-com-a-implantacao-da-rede-nacional-de-dados-em-saude
+- https://apps.apple.com/br/app/conecte-sus/id1045754608
+eSUS+ (CIDADE SAUDÁVEL) https://www.olinda.pe.cidadesaudavel.com/login#/l 
+
+O Sistema eSUS+, por meio da plataforma Cidade Saudável, vem sendo utilizada pelos Agentes Comunitário de Saúde (ACS) na cidade de Olinda/PE, Queimada/PB e outras pelo país afora. Essa plataforma tem auxiliado o trabalho do ACS, permitindo o impulsionamento na aquisição de informações a partir do trabalho realizado por aqueles profissionais junto as famílias do município. 
+Assim como outras plataformas do segmento, os pontos positivos da plataforma estão na substituição das fichas que anteriormente eram preenchidas pelos ACS; a realização de Cadastro Individual, entre outras fichas que são utilizadas com frequência; Envio de fichas cadastradas ao conectar-se com a internet, entre outros.
+Quanto aos pontos negativos, a plataforma acumula diversas reclamações como respostas falsas de que o usuário não está cadastrado, erro de sincronização, falta de classificação, dentre outras.
+Algumas telas da plataforma:
+1-                                           2-                                               3- 
+
+
+
+
+
+
+
+
+
+
+- https://www.boavista.pb.gov.br/portal/noticias/geral/prefeitura-implanta-projeto-cidade-saudavel-e-realiza-a-informatizacao-do-sistema-de-saude-330
+- https://medium.com/cidade-saud%C3%A1vel/olinda-pe-em-1-000-000-00-de-visitas-no-cidade-saud%C3%A1vel-c5e8603e3571
+- https://play.google.com/store/apps/details?id=com.sysvale.syssus&hl=pt_BR&gl=US
+ACS Lite (eSUS AB Território):
+
+Como os demais aplicativos (plataforma), visa auxiliar o Agente de Saúde no campo de trabalho, promovendo a renderização do tempo quando seu usuário faz uso da tecnologia durante a execução do trabalho diário, promovendo desta forma dados mais consistentes para o planejamento gerencial da autoridade pública. 
+Seus pontos positivos, entre outros itens, é possibilitar o acompanhamento de Gestantes, pré-natal ou Puerpério, Hipertensos (Hipertensão Arterial), Diabéticos, Pessoas com Tuberculose ou Hanseníase, Crianças, Acamados, Domiciliados, Idosos, além de contribuir nas campanhas nacionais de saúde ou do município.
+Quantos aos pontos negativos, existem diversas observações quanto a sincronização de dados, retorno de pesquisa apenas por nome oficial, alguns filtros que não atendem a realidade encontrada no campo de trabalho do ACS.
+Algumas telas:
+1-                                           2-                                                        3-   
+
+
+
+
+ 
+
+
+
+
+
+- https://www.ephealth.com.br/app-acs
+- https://play.google.com/store/apps/details?id=br.com.epartnerbr.emhealth.acsfree
+
+
+
+
+
+
+
+
+
+
+MONETIZAÇÃO E CAPITALIZAÇÃO DA APLICAÇÃO
+
+Sabemos que inicialmente uma aplicação pode começar como iniciativa de projeto. Entretanto, posteriormente esta, terá de possuir algum meio de capitalização, seja ele privado, por meio de venda mediante licitação para um órgão governamental ou posterior implementação de um módulo de no formato do Google Adsense (consiste na ferramenta de publicidade criada pela gigante da tecnologia, onde anúncios são exibidos em plataformas gerando lucro baseado em/ou na quantidade de cliques ou de visualizações).
+
+Inicialmente, com a oferta do produto para os potenciais clientes acima, é esperado que implique na futura monetização do produto. O mais comum no mercado de softwares proprietários, consiste na seguinte arquitetura: venda do produto com um determinado tempo de suporte (possibilidade da abertura de chamados, disponibilização de patchs de segurança e aprimoramento), caso o suporte acabe e o cliente não tenha interesse em renovação, poderá permanecer usando, entretanto, sem o suporte do fabricante.
